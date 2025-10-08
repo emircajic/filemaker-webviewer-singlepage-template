@@ -2,6 +2,24 @@
 
 All notable changes to this template will be documented in this file.
 
+## [1.1.0] - 2025-10-08
+
+### Added
+- HTML minification with `vite-plugin-html`
+- Terser minification for JavaScript
+- Automatic console call stripping in production builds
+- Debugger statement removal in production
+- Comment removal in production builds
+
+### Changed
+- Updated Vite configuration to use Terser instead of default esbuild
+- Enhanced build optimization settings
+- Improved production bundle size
+
+### Dependencies
+- Added: vite-plugin-html
+- Added: terser
+
 ## [1.0.0] - 2025-10-08
 
 ### Added

@@ -66,6 +66,13 @@ Choose the right document for your needs:
 - Future roadmap
 - **Time to read**: 2 minutes
 
+**[BUILD_OPTIMIZATIONS.md](BUILD_OPTIMIZATIONS.md)** - Build optimizations
+- HTML/CSS/JS minification
+- Console call stripping
+- Performance metrics
+- Configuration options
+- **Time to read**: 5 minutes
+
 ---
 
 ## 🎯 Quick Navigation

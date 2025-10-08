@@ -207,6 +207,19 @@ Add your JavaScript logic in `src/js/main.js`
 
 Modify `tailwind.config.js` to customize colors, fonts, spacing, etc.
 
+## Production Build Optimizations
+
+The production build (`npm run build`) automatically:
+
+- ✅ **Minifies HTML** - Removes whitespace and comments
+- ✅ **Minifies CSS** - Optimizes and compresses styles
+- ✅ **Minifies JavaScript** - Compresses code with Terser
+- ✅ **Strips console calls** - Removes all `console.log()`, `console.info()`, etc.
+- ✅ **Removes debugger** - Strips debugger statements
+- ✅ **Inlines all assets** - Single file output
+
+This results in the smallest possible file size for FileMaker embedding.
+
 ## Tips for FileMaker WebViewer
 
 1. **Keep it lightweight** - The entire app is in one file, so avoid large assets
@@ -214,6 +227,7 @@ Modify `tailwind.config.js` to customize colors, fonts, spacing, etc.
 3. **Use relative units** - The WebViewer size may vary
 4. **Handle errors gracefully** - FileMaker's JavaScript engine may have limitations
 5. **Security** - Be careful with user input and data validation
+6. **Console logging** - Use console calls freely in development; they're auto-removed in production
 
 ## License
 
