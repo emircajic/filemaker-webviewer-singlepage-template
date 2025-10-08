@@ -1,0 +1,32 @@
+{
+  "name": "filemaker-webviewer-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A single-page application for FileMaker WebViewer built with Vite, PostCSS, and Tailwind CSS",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "create": "node create-project.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "filemaker",
+    "webviewer",
+    "vite",
+    "tailwind",
+    "postcss"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.14",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.14",
+    "vite": "^7.1.9",
+    "vite-plugin-singlefile": "^2.3.0"
+  }
+}
