@@ -90,7 +90,9 @@ async function main() {
       autoprefixer: '^10.4.21',
       postcss: '^8.5.6',
       tailwindcss: '^4.1.14',
+      terser: '^5.44.0',
       vite: '^7.1.9',
+      'vite-plugin-html': '^3.2.2',
       'vite-plugin-singlefile': '^2.3.0'
     }
   };

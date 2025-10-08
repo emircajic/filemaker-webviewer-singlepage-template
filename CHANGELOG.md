@@ -16,6 +16,9 @@ All notable changes to this template will be documented in this file.
 - Enhanced build optimization settings
 - Improved production bundle size
 
+### Fixed
+- Project generator now includes `vite-plugin-html` and `terser` in generated package.json
+
 ### Dependencies
 - Added: vite-plugin-html
 - Added: terser
